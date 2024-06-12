@@ -1,5 +1,6 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/logo_c55b2621-6631-4293-84d1-7b41bc2ee213.svg",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/lonx-favicon.png",
     "type_header_font": "assistant_n4",
@@ -176,12 +177,23 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-d8fc4bc8-2956-4f98-a6ed-0031382b26cb": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
