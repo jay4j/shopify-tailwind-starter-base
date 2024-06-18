@@ -5,14 +5,19 @@
     "header": {
       "type": "header",
       "blocks": {
-        "shop_shop_login_button_app_block_MPp4Qy": {
-          "type": "shopify:\/\/apps\/shop\/blocks\/shop-login-button-app-block\/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+        "helplab_faq_page_product_faqs_app_block_gpUpGh": {
+          "type": "shopify:\/\/apps\/helplab-faq-page-product-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
           "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "Copy paste embed code you received from app.",
+            "faqs_width": 100
           }
         }
       },
       "block_order": [
-        "shop_shop_login_button_app_block_MPp4Qy"
+        "helplab_faq_page_product_faqs_app_block_gpUpGh"
       ],
       "settings": {
         "logo_position": "middle-left",
