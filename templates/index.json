@@ -74,15 +74,16 @@
         "slide_RCMhid": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/v2_resize_hero_img_slide2_6b67f2fb-3fe1-4a0b-ac20-ca28a786ce2b.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"
