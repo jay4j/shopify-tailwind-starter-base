@@ -4,21 +4,6 @@
   "sections": {
     "header": {
       "type": "header",
-      "blocks": {
-        "helplab_faq_page_product_faqs_app_block_gpUpGh": {
-          "type": "shopify:\/\/apps\/helplab-faq-page-product-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
-          "settings": {
-            "heading": "Frequently Asked Questions",
-            "heading_text_type": "h2",
-            "heading_alignment": "left",
-            "faq_embed_code": "Copy paste embed code you received from app.",
-            "faqs_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "helplab_faq_page_product_faqs_app_block_gpUpGh"
-      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
