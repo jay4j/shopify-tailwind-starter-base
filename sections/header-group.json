@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header-menu {font-size: 20pt;}"
+        "header-menu {font-size: 18px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
