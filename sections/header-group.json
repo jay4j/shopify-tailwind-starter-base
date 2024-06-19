@@ -54,6 +54,9 @@
         "announcement-bar-0",
         "announcement_6Mmfib"
       ],
+      "custom_css": [
+        ".announcement-bar__message h5 {font-family: \"Twentieth Century\", \"Verdana\", sans-serif;}"
+      ],
       "settings": {
         "color_scheme": "scheme-d8fc4bc8-2956-4f98-a6ed-0031382b26cb",
         "show_line_separator": true,
