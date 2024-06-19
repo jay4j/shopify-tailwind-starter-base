@@ -38,13 +38,21 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Litmited-Time Offers",
+            "text": "Mega Sale Litmited-Time Offers",
             "link": "shopify:\/\/collections\/limited-time-offers"
+          }
+        },
+        "announcement_6Mmfib": {
+          "type": "announcement",
+          "settings": {
+            "text": "Order $120 Or More For Free Shipping",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_6Mmfib"
       ],
       "settings": {
         "color_scheme": "scheme-d8fc4bc8-2956-4f98-a6ed-0031382b26cb",
