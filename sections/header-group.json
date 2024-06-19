@@ -58,7 +58,7 @@
         "color_scheme": "scheme-d8fc4bc8-2956-4f98-a6ed-0031382b26cb",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 6,
         "enable_country_selector": false,
         "enable_language_selector": false
