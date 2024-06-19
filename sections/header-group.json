@@ -13,6 +13,9 @@
   "sections": {
     "header": {
       "type": "header",
+      "custom_css": [
+        "header-menu{text-size: 15pt;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
