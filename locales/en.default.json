@@ -9,6 +9,14 @@
 */
 {
   "general": {
+    "home_page": {
+      "onboarding": {
+        "product_title": "Example product",
+        "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color,  materials used, sizing, and where it was made.",
+        "collection_title": "Example collection",
+        "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
+      }
+    },
     "password_page": {
       "login_form_heading": "Enter store using password:",
       "login_password_button": "Enter using password",
@@ -346,14 +354,6 @@
       "play_slideshow": "Play slideshow",
       "carousel": "Carousel",
       "slide": "Slide"
-    },
-    "home_page": {
-      "onboarding": {
-        "product_title": "Example product",
-        "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color,  materials used, sizing, and where it was made.",
-        "collection_title": "Example collection",
-        "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
-      }
     },
     "myslideshow": {
       "play_slideshow": "Play slideshow",
