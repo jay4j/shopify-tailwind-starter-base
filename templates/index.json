@@ -54,7 +54,8 @@
         "slide_RCMhid"
       ],
       "custom_css": [
-        "p {font-size: 1.8rem;}"
+        "p {font-size: 1.8rem;}",
+        ".slideshow__text.banner__box {max-width:1rem ;}"
       ],
       "settings": {
         "layout": "full_bleed",
