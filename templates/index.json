@@ -69,6 +69,22 @@
     },
     "image_banner_ypNq7G": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_zcbAaL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify:\/\/collections\/limited-time-offers",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_zcbAaL"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
         "image_overlay_opacity": 0,
@@ -92,17 +108,10 @@
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
