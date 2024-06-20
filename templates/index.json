@@ -55,7 +55,7 @@
       ],
       "custom_css": [
         "p {font-size: 1.8rem;}",
-        ".slideshow__text.banner__box {max-width:1rem ;}"
+        ".banner__box {max-width: 3rem; background-color: transparent;}"
       ],
       "settings": {
         "layout": "full_bleed",
