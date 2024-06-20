@@ -159,7 +159,7 @@
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
               <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.subheading }}</p>
+                <p>{{ block.settings.subheading | newline_to_br }}</p>
               </div>
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
