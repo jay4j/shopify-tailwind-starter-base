@@ -105,7 +105,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 2.5rem;}",
-        ".banner__text rte{font-size: 5rem;}"
+        "p {font-size: 1.8rem;}"
       ],
       "settings": {
         "layout": "full_bleed",
