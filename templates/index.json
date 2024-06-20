@@ -18,7 +18,7 @@
             "image": "shopify:\/\/shop_images\/v4_resize_hero_img_slide1.jpg",
             "heading": "Celebrate Our Milestone",
             "heading_size": "h2",
-            "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
+            "subheading": "Since 2020, LonX has strived to offer high\nquality products that meet rigorous quality\nstandards while ensuring afforable price\nfor our customers.",
             "button_label": "Learn More",
             "link": "shopify:\/\/pages\/map",
             "button_style_secondary": false,
@@ -69,21 +69,8 @@
     },
     "image_banner_ypNq7G": {
       "type": "image-banner",
-      "blocks": {
-        "buttons_zcbAaL": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify:\/\/collections\/limited-time-offers",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_zcbAaL"
+      "custom_css": [
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
