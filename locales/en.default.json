@@ -347,10 +347,6 @@
       "carousel": "Carousel",
       "slide": "Slide"
     },
-    "myslideshow": {
-      "play_slideshow": "Play slideshow",
-      "pause_slideshow": "Pause slideshow"
-    },
     "home_page": {
       "onboarding": {
         "product_title": "Example product",
@@ -358,6 +354,10 @@
         "collection_title": "Example collection",
         "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
       }
+    },
+    "myslideshow": {
+      "play_slideshow": "Play slideshow",
+      "pause_slideshow": "Pause slideshow"
     },
     "page": {
       "title": "Page title"
