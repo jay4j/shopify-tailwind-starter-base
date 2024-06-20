@@ -104,7 +104,6 @@
         "slide_RCMhid"
       ],
       "custom_css": [
-        "h2 {font-size: 2rem;}",
         "p {font-size: 1.7rem;}"
       ],
       "settings": {
