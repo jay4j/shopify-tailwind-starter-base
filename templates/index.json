@@ -54,7 +54,7 @@
         "slide_RCMhid"
       ],
       "custom_css": [
-        "p {font-size: 2rem;}",
+        "p {font-size: 1.5rem;}",
         ".banner__box {max-width: 50rem; background-color: transparent;}"
       ],
       "settings": {
