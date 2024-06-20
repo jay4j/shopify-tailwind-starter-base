@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/v4_resize_hero_img_slide1.jpg",
             "heading": "Celebrate Our Milestone",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
             "button_label": "Learn More",
             "link": "shopify:\/\/pages\/map",
@@ -54,7 +54,7 @@
         "slide_RCMhid"
       ],
       "custom_css": [
-        "p {font-size: 1.6rem;}",
+        "p {font-size: 1.8rem;}",
         ".banner__box {max-width: 50rem; background-color: transparent;}"
       ],
       "settings": {
