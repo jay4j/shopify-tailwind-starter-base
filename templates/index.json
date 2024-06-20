@@ -104,7 +104,7 @@
         "slide_RCMhid"
       ],
       "custom_css": [
-        "p {font-size: 1.7rem;}"
+        "p {font-size: 1.6rem;}"
       ],
       "settings": {
         "layout": "full_bleed",
