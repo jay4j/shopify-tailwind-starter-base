@@ -18,12 +18,12 @@
             "image": "shopify:\/\/shop_images\/v4_resize_hero_img_slide1.jpg",
             "heading": "Celebrate Our Milestone",
             "heading_size": "h2",
-            "subheading": "Since 2020, LonX has strived to offer high\nquality products that meet rigorous quality\nstandards while ensuring afforable price\nfor our customers.",
+            "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
             "button_label": "Learn More",
             "link": "shopify:\/\/pages\/map",
             "button_style_secondary": false,
             "box_align": "top-left",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-5",
@@ -69,21 +69,44 @@
     },
     "image_banner_ypNq7G": {
       "type": "image-banner",
+      "blocks": {
+        "heading_jr8tTp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_BBKzXA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jr8tTp",
+        "buttons_BBKzXA"
+      ],
       "custom_css": [
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "rich_text": {
@@ -95,10 +118,17 @@
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "text"
       ],
       "settings": {
         "desktop_content_position": "center",
