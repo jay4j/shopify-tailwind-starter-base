@@ -66,7 +66,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/v3_resize_hero_img_slide1.jpg",
-            "heading": "Image slide",
+            "heading": "Celebrate Our Milestone",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Learn More",
@@ -102,6 +102,9 @@
       "block_order": [
         "slide_QgAtPB",
         "slide_RCMhid"
+      ],
+      "custom_css": [
+        "h2 {font-size: 2.5rem;}"
       ],
       "settings": {
         "layout": "full_bleed",
