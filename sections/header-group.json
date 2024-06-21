@@ -46,7 +46,7 @@
           "type": "announcement",
           "settings": {
             "text": "Order $120 Or More For Free Shipping",
-            "link": ""
+            "link": "shopify:\/\/policies\/shipping-policy"
           }
         }
       },
