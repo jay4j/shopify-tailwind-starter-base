@@ -88,29 +88,41 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "collection_list_ibgaQc": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_XMVEQg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gowns-and-apparel"
+          }
+        },
+        "featured_collection_CwMxKF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personal-beauty-care"
+          }
+        },
+        "featured_collection_KiYxVy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_XMVEQg",
+        "featured_collection_CwMxKF",
+        "featured_collection_KiYxVy"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "title": "",
+        "heading_size": "h1",
         "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-5",
+        "show_view_all": true,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -151,6 +163,34 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -226,8 +266,9 @@
   "order": [
     "slideshow_yeXBUR",
     "image_banner_ypNq7G",
-    "featured_collection",
+    "collection_list_ibgaQc",
     "collage",
+    "featured_collection",
     "video",
     "multicolumn"
   ]
