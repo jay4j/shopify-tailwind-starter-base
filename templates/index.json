@@ -116,7 +116,7 @@
         "featured_collection_KiYxVy"
       ],
       "custom_css": [
-        ".card {text-align: center; font-family: \"Twentieth Century\", \"Verdana\", sans-serif;}"
+        ".card {text-align: center; font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 50rem;}"
       ],
       "settings": {
         "title": "Featured Products By Category",
