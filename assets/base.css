@@ -3527,4 +3527,7 @@ details-disclosure > details {
     .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
+  .icon-arrow {
+    display: none;
+  }
 }
