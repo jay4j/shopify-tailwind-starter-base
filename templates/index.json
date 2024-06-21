@@ -71,7 +71,7 @@
     "image_banner_ypNq7G": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--22876547449123__image_banner_ypNq7G {margin: 50px, 20px;;}"
+        "#Banner-template--22876547449123__image_banner_ypNq7G {margin: 50px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
