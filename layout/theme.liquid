@@ -356,30 +356,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-    <style>
-    .slideshow__controls slideshow__controls--top slider-buttons slideshow__controls--border-radius-mobile .slideshow__controls {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9;
-  }
-  .slideshow__controls slideshow__controls--top slider-buttons slideshow__controls--border-radius-mobile .slider-counter__link--dots .dot{
-    width: 100px;
-    height: 7px;
-    border: 0;
-    border-radius: 0;
-    background: #ffffff !important;
-    opacity: 0.3;
-  }
-  .slideshow__controls slideshow__controls--top slider-buttons slideshow__controls--border-radius-mobile .slider-counter__link--active.slider-counter__link--dots .dot{
-    opacity: 1;
-  }
- .slideshow__controls slideshow__controls--top slider-buttons slideshow__controls--border-radius-mobile .slider-button{
-    display: none !important;
-  }
-</style>
-    
   </body>
 </html>
