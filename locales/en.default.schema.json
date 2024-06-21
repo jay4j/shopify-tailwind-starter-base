@@ -1175,6 +1175,9 @@
         "image_2": {
           "label": "Second image"
         },
+        "image_link": {
+          "lable": "image link"
+        },
         "image_overlay_opacity": {
           "label": "Image overlay opacity"
         },
