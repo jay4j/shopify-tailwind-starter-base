@@ -356,5 +356,29 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <style>
+  #shopify-section-template--16697758482683__e16f2bc1-518a-403d-8fbc-6f90827086df .slideshow__controls {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+  }
+  #shopify-section-template--16697758482683__e16f2bc1-518a-403d-8fbc-6f90827086df .slider-counter__link--dots .dot{
+    width: 100px;
+    height: 7px;
+    border: 0;
+    border-radius: 0;
+    background: #ffffff !important;
+    opacity: 0.3;
+  }
+  #shopify-section-template--16697758482683__e16f2bc1-518a-403d-8fbc-6f90827086df .slider-counter__link--active.slider-counter__link--dots .dot{
+    opacity: 1;
+  }
+  #shopify-section-template--16697758482683__e16f2bc1-518a-403d-8fbc-6f90827086df .slider-button{
+    display: none !important;
+  }
+    </style>
   </body>
 </html>
