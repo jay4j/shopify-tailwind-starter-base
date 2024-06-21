@@ -115,6 +115,9 @@
         "featured_collection_CwMxKF",
         "featured_collection_KiYxVy"
       ],
+      "custom_css": [
+        ".card{text-align: center;}"
+      ],
       "settings": {
         "title": "Featured Products By Category",
         "heading_size": "h2",
