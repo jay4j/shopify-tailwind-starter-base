@@ -116,8 +116,8 @@
         "featured_collection_KiYxVy"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Featured Products By Category",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-5",
