@@ -91,7 +91,8 @@
     "featured_collection_YbFhEw": {
       "type": "featured-collection",
       "custom_css": [
-        ".card__heading{font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 1.8rem;}"
+        ".card__heading {font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 1.8rem;}",
+        ".price--on-sale {font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 1.5rem;}"
       ],
       "settings": {
         "title": "Limited Time Offer",
