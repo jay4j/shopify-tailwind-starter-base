@@ -30,24 +30,6 @@
             "text_alignment_mobile": "left"
           }
         },
-        "slide_6Fa6Cm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Learn More",
-            "link": "shopify:\/\/collections\/limited-time-offers",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_RCMhid": {
           "type": "slide",
           "settings": {
@@ -69,7 +51,6 @@
       },
       "block_order": [
         "slide_QgAtPB",
-        "slide_6Fa6Cm",
         "slide_RCMhid"
       ],
       "custom_css": [
@@ -89,7 +70,6 @@
     },
     "image_banner_ypNq7G": {
       "type": "image-banner",
-      "disabled": true,
       "custom_css": [
 
       ],
