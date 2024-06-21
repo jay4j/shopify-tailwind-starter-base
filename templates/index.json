@@ -88,6 +88,34 @@
         "show_text_below": false
       }
     },
+    "featured_collection_YbFhEw": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limited Time Offer",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "limited-time-offers",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-5",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_list_ibgaQc": {
       "type": "collection-list",
       "blocks": {
@@ -127,34 +155,6 @@
         "color_scheme": "scheme-5",
         "show_view_all": true,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_YbFhEw": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Limited Time Offer",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "limited-time-offers",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-5",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -298,8 +298,8 @@
   "order": [
     "slideshow_yeXBUR",
     "image_banner_ypNq7G",
-    "collection_list_ibgaQc",
     "featured_collection_YbFhEw",
+    "collection_list_ibgaQc",
     "collage",
     "featured_collection",
     "video",
