@@ -86,8 +86,9 @@
       ],
       "custom_css": [
         "a {color: #019bd9;}",
+        "h2 {font-weight: bold;}",
         ".footer__blocks-wrapper {font-size: 2rem;}",
-        ".footer-block--menu{font-size: 1rem;}"
+        ".footer-block__details-content .list-menu__item--link {font-size: 2rem; line-height: 1rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
