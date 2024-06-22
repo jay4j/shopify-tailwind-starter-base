@@ -193,7 +193,7 @@
           "button": "#0c68ab",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#ffffff"
+          "shadow": "#121212"
         }
       },
       "scheme-d8fc4bc8-2956-4f98-a6ed-0031382b26cb": {
@@ -215,7 +215,7 @@
           "button": "#0c68ab",
           "button_label": "#019bd9",
           "secondary_button_label": "#0c68ab",
-          "shadow": "#121212"
+          "shadow": "#ffffff"
         }
       }
     }
