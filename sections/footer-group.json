@@ -86,6 +86,7 @@
       ],
       "custom_css": [
         "a {color: #019bd9;}",
+        "p{font-size: 2rem;}",
         "h2 {font-weight: bold;}",
         ".footer-block__details-content .list-menu__item--link {font-size: 2rem; line-height: 1rem;}"
       ],
