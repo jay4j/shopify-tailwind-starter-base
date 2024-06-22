@@ -51,8 +51,8 @@
         "text_KdmtKn": {
           "type": "text",
           "settings": {
-            "heading": "LonX Inc.",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "<strong>LonX Inc.<\/strong>",
+            "subtext": "<p><strong>MDEL LICENSE #: 24545<\/strong><\/p><p><strong>SALES:<\/strong> 514-704-1035<\/p><p><strong>Sales Email:<\/strong> <a href=\"mailto:sale@lonx.ca\" target=\"_blank\" title=\"inquiry or get a quote\">sale@lonx.ca<\/a><\/p><p><strong>Customer Service:<\/strong> <a href=\"mailto:info@lonx.ca\" target=\"_blank\" title=\"customer support\">info@lonx.ca<\/a><\/p><p><\/p>"
           }
         },
         "footer-1": {
