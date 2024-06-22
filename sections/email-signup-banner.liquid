@@ -99,6 +99,7 @@
                     <label class="field__label" for="NewsletterForm--{{ section.id }}">
                       {{ 'newsletter.label' | t }}
                     </label>
+                    {% comment %}
                     <button
                       type="submit"
                       class="newsletter-form__button field__button"
@@ -106,9 +107,20 @@
                       id="Subscribe"
                       aria-label="{{ 'newsletter.button_label' | t }}"
                     >
-                       {{ 'templates.contact.form.send' | t }}
-                      {% comment %}{% render 'icon-arrow' %} {% endcomment %}
+                      {% render 'icon-arrow' %}
                     </button>
+                    {% endcomment %}
+
+                     <button
+                      type="submit"
+                      class="newsletter-form__button field__button"
+                      name="commit"
+                      id="Subscribe"
+                      aria-label="{{ 'newsletter.button_label' | t }}"
+                    >
+                    </button>
+                    
+                    
                   </div>
                   {%- if form.errors -%}
                     <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
