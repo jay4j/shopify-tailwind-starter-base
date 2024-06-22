@@ -58,8 +58,8 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Resource",
-            "menu": "footer-menu-2"
+            "heading": "Company",
+            "menu": "footer"
           }
         },
         "link_list_ftwndY": {
