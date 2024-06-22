@@ -85,7 +85,8 @@
         "footer-2"
       ],
       "custom_css": [
-        "a {color: #019BD9;}"
+        "a {color: #019bd9;}",
+        "p{font-size: 2rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
