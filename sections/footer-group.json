@@ -11,40 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter_MXAW9P": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_CNttXi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay informed",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_YVwUan": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Sign up to be the first to know about inventory replenishments, new products, and more.<\/p>"
-          }
-        },
-        "email_form_grnjgx": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_CNttXi",
-        "paragraph_YVwUan",
-        "email_form_grnjgx"
-      ],
-      "settings": {
-        "color_scheme": "scheme-5",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -107,7 +73,6 @@
     }
   },
   "order": [
-    "newsletter_MXAW9P",
     "footer"
   ]
 }
