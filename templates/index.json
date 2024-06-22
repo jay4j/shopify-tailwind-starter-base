@@ -246,10 +246,9 @@
             "button_link": ""
           }
         },
-        "row_rYxTRr": {
+        "row_m9BBhH": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1577-202109241520194774.png",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -260,7 +259,7 @@
       },
       "block_order": [
         "row_rkEmPH",
-        "row_rYxTRr"
+        "row_m9BBhH"
       ],
       "settings": {
         "image_height": "medium",
