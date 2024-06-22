@@ -58,8 +58,8 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Resource",
+            "menu": "footer-menu-2"
           }
         },
         "footer-2": {
