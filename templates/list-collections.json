@@ -12,7 +12,9 @@
     "main": {
       "type": "main-list-collections",
       "custom_css": [
-        ".icon-arrow {display: none;}"
+        ".icon-arrow {display: none;}",
+        ".card {text-align: center;}",
+        "h3 {font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 2.5rem;}"
       ],
       "settings": {
         "title": "Product Catalog",
