@@ -163,7 +163,8 @@
         ".price-item--regular {font-size: 2rem;}",
         ".badge {font-size: 1.6rem; display: none;}",
         ".product__tax {font-size: 1.5rem;}",
-        "a {color: #019bd9;}"
+        "a {color: #019bd9;}",
+        ".form__label {font-size: 1.4rem; font-weight: bold;}"
       ],
       "settings": {
         "enable_sticky_info": true,
