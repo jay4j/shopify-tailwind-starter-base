@@ -161,7 +161,7 @@
         "h2 {font-size: 2rem;}",
         ".price__sale {font-size: 2rem;}",
         ".price-item--regular {font-size: 2rem;}",
-        ".badge{font-size:2rem;}"
+        ".badge {font-size: 1.6rem; display:none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
