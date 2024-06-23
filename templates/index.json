@@ -353,14 +353,14 @@
         "heading_x37nep": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Stay Informed",
             "heading_size": "h1"
           }
         },
         "paragraph_j3fbNc": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Sign up to stay informed on: New Promotional Offers, new products, updates and more...<\/p>"
           }
         },
         "email_form_e63p8a": {
@@ -375,7 +375,7 @@
         "email_form_e63p8a"
       ],
       "custom_css": [
-        ".newsletter-form__button{display: block;}"
+        ".newsletter-form__button {display: block;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
