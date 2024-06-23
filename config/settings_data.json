@@ -104,7 +104,7 @@
     "badge_position": "top left",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-1",
-    "sold_out_badge_color_scheme": "scheme-5",
+    "sold_out_badge_color_scheme": "scheme-2",
     "brand_image": "shopify:\/\/shop_images\/media-share-image.jpg",
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -156,7 +156,7 @@
         "settings": {
           "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#e11b47",
           "button": "#121212",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
