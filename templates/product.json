@@ -156,6 +156,9 @@
         "collapsible_tab_T8hmH4",
         "complementary_kEFQbL"
       ],
+      "custom_css": [
+        "p{font-size: 2rem;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-5",
