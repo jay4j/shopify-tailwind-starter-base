@@ -81,9 +81,9 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Shipping Information",
             "icon": "truck",
-            "content": "",
+            "content": "<p>LonX currently ships within Canada and the United States.<\/p><p><strong>CANADA<\/strong><\/p><p>We are currently offering Free Shipping across Canada (excluding the Territories) for any orders over $120. All orders will be processed Monday through Friday. Please allow 24 hours for your order to be processed.<\/p><p>Orders are not processed on weekends or Canadian & American holidays. Extra time may be required for larger orders, orders requiring additional customer information.<\/p><p>Unfortunately we do not ship to PO Boxes.<\/p><p>The following are general transit time estimates, excluding order processing times:*<\/p><p><strong>Standard Shipping:<\/strong> 2-5 business days depending on location.<\/p><p>We do offer expedited shipping.<\/p><p>Each return\/exchange request will be assessed on a case-by-case basis. Shipping costs associated with returns of approved items will be the responsibility of the customer. Any refunds will not include shipping charges. <\/p><p>*The expected delivery date does not come with a money-back guarantee.<\/p>",
             "page": ""
           }
         },
@@ -136,12 +136,6 @@
             "image_ratio": "square",
             "enable_quick_add": false
           }
-        },
-        "sku_eGMkTW": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -160,8 +154,7 @@
         "collapsible-row-3",
         "share",
         "collapsible_tab_T8hmH4",
-        "complementary_kEFQbL",
-        "sku_eGMkTW"
+        "complementary_kEFQbL"
       ],
       "settings": {
         "enable_sticky_info": true,
