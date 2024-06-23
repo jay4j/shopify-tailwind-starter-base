@@ -12,6 +12,24 @@
     "slideshow_yeXBUR": {
       "type": "slideshow",
       "blocks": {
+        "slide_QgAtPB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/v8_resize_hero_img_slide1.jpg",
+            "heading": "Celebrate Our Milestone",
+            "heading_size": "h1",
+            "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
+            "button_label": "Learn More",
+            "link": "shopify:\/\/pages\/map",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_RCMhid": {
           "type": "slide",
           "settings": {
@@ -29,29 +47,11 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_QgAtPB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/v9_resize_hero_img_slide1.jpg",
-            "heading": "Celebrate Our Milestone",
-            "heading_size": "h1",
-            "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
-            "button_label": "Learn More",
-            "link": "shopify:\/\/pages\/map",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
-        "slide_RCMhid",
-        "slide_QgAtPB"
+        "slide_QgAtPB",
+        "slide_RCMhid"
       ],
       "custom_css": [
         "p {font-size: 1.8rem;}",
