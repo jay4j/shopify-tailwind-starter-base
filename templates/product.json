@@ -157,7 +157,8 @@
         "complementary_kEFQbL"
       ],
       "custom_css": [
-        "p{font-size: 2rem;}"
+        "p{font-size: 2rem;}",
+        "h2{font-size: 2rem;}"
       ],
       "settings": {
         "enable_sticky_info": true,
