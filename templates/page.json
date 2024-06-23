@@ -31,10 +31,13 @@
         "heading_69RXiD",
         "text_WJkq8k"
       ],
+      "custom_css": [
+        ".image-with-text__text {font-size: 2rem;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/intro-img-2_c59c581d-7403-49b8-8bfa-802349b8a026.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
