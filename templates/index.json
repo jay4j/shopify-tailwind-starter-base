@@ -153,7 +153,7 @@
         ".icon-arrow {display: none;}"
       ],
       "settings": {
-        "title": "Featured Products By Category",
+        "title": "Featured Products By Categories ",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
