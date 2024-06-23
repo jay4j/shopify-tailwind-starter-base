@@ -160,7 +160,8 @@
         "p {font-size: 2rem;}",
         "h2 {font-size: 2rem;}",
         ".price__sale {font-size: 2rem;}",
-        ".price-item--regular{font-size: 2rem;}"
+        ".price-item--regular {font-size: 2rem;}",
+        ".badge{font-size:2rem;}"
       ],
       "settings": {
         "enable_sticky_info": true,
