@@ -49,6 +49,14 @@
           "settings": {
           }
         },
+        "inventory_KmmMCi": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -81,6 +89,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -99,8 +108,39 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "collapsible_tab_T8hmH4": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "complementary_kEFQbL": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "sku_eGMkTW": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
           }
         }
       },
@@ -111,13 +151,17 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "inventory_KmmMCi",
         "buy_buttons",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "collapsible_tab_T8hmH4",
+        "complementary_kEFQbL",
+        "sku_eGMkTW"
       ],
       "settings": {
         "enable_sticky_info": true,
