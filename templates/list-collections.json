@@ -13,7 +13,7 @@
       "type": "main-list-collections",
       "custom_css": [
         ".icon-arrow {display: none;}",
-        "h1{font-size: 3rem;}",
+        "h1 {font-size: 3rem;}",
         ".card {text-align: center;}",
         "h3 {font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 2.5rem;}"
       ],
@@ -24,9 +24,74 @@
         "columns_desktop": 3,
         "columns_mobile": "2"
       }
+    },
+    "multicolumn_tnFj9J": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UCYnJM": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nBUBQE": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BUVYRW": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UCYnJM",
+        "column_nBUBQE",
+        "column_BUVYRW"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_nPF4YP": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_tnFj9J",
+    "contact_form_nPF4YP"
   ]
 }
