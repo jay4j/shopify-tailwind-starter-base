@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/v10_resize_hero_img_slide1.jpg",
             "heading": "Celebrate Our Milestone",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
             "button_label": "Learn More",
             "link": "shopify:\/\/pages\/map",
@@ -35,7 +35,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/v2_resize_hero_img_slide2_6b67f2fb-3fe1-4a0b-ac20-ca28a786ce2b.jpg",
             "heading": "Premium Isolation Gowns",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
             "button_label": "Learn More",
             "link": "shopify:\/\/collections\/isolation-gown",
