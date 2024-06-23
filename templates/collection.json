@@ -40,7 +40,7 @@
     "contact_form_xL6k7J": {
       "type": "contact-form",
       "custom_css": [
-
+        ".contact__button {color:white;}"
       ],
       "settings": {
         "heading": "Contact form",
