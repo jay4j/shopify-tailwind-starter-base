@@ -301,6 +301,16 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "contact_form_VLUGrk": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -308,6 +318,7 @@
     "quick_order_list_zrUYBQ",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "contact_form_VLUGrk"
   ]
 }
