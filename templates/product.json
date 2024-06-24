@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "<p>High-quality 20 g\/m2 PP( Polypropylene <strong>)<\/strong>fabric<\/p>",
+            "content": "<p><\/p>{{ product.metafields.shopify.material | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
