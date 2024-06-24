@@ -284,6 +284,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_KHXwgi": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ 'component-card.css' | asset_url | stylesheet_tag }}\n{{ 'component-price.css' | asset_url | stylesheet_tag }}\n{{ 'section-related-products.css' | asset_url | stylesheet_tag }}\n\n{% if section.settings.image_shape == 'blob' %}\n  {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}\n{%- endif -%}\n\n{%- style -%}\n  .section-{{ section.id }}-padding {\n    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;\n    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;\n  }\n\n  @media screen and (min-width: 750px) {\n    .section-{{ section.id }}-padding {\n      padding-top: {{ section.settings.padding_top }}px;\n      padding-bottom: {{ section.settings.padding_bottom }}px;\n    }\n  }\n{%- endstyle -%}\n\n<div class=\"color-{{ section.settings.color_scheme }} gradient\">\n  <product-recommendations\n    class=\"related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}\"\n    data-url=\"{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}\"\n  >\n    {% if recommendations.performed and recommendations.products_count > 0 %}\n      <h2 class=\"related-products__heading inline-richtext {{ section.settings.heading_size }}\">\n        {{ section.settings.heading }}\n      <\/h2>\n      <ul\n        class=\"grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down\"\n        role=\"list\"\n      >\n        {% for recommendation in recommendations.products %}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: recommendation,\n              media_aspect_ratio: section.settings.image_ratio,\n              image_shape: section.settings.image_shape,\n              show_secondary_image: section.settings.show_secondary_image,\n              show_vendor: section.settings.show_vendor,\n              show_rating: section.settings.show_rating\n            %}\n          <\/li>\n        {% endfor %}\n      <\/ul>\n    {% endif %}\n  <\/product-recommendations>\n  {% if section.settings.image_shape == 'arch' %}\n    {% render 'mask-arch' %}\n  {%- endif -%}\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -308,6 +317,7 @@
     "quick_order_list_zrUYBQ",
     "image-with-text",
     "multicolumn",
+    "custom_liquid_KHXwgi",
     "related-products"
   ]
 }
