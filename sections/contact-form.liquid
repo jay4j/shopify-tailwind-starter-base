@@ -69,12 +69,12 @@
           <input
             class="field__input"
             type="text"
-            id="ContactForm-name"
+            id="ContactForm-companyname"
             name="contact[{{ 'templates.contact.form.company_name' | t }}]"
-            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            value="{% if form.companyname %}{{ form.companyname }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.company_name' | t }}"
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.company_name' | t }}</label>
+          <label class="field__label" for="ContactForm-companyname">{{ 'templates.contact.form.company_name' | t }}</label>
         </div>
         
         <div class="field field--with-error">
