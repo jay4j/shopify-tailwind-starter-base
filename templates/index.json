@@ -251,8 +251,8 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/1577-202109241520194774.png",
-            "caption": "Caption",
-            "heading": "Row",
+            "caption": "",
+            "heading": "We take pride in the quality of our products",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "",
             "button_link": ""
