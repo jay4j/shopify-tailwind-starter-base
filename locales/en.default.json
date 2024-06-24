@@ -266,6 +266,7 @@
       "form": {
         "title": "Contact form",
         "name": "Name",
+        "company_name": "Comany name",
         "email": "Email",
         "phone": "Phone number",
         "comment": "Comment",
