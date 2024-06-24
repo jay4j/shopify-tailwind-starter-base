@@ -8,11 +8,11 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
-    "name": "Color Swatches by MrDigitals",
+    "name": "Color Swatches",
     "settings": [
       {
         "type": "paragraph",
-        "content": "Support MrDigitals by [Subscribing our Channel](https:\/\/youtube.com\/@amazinglearning?sub_confirmation=1)"
+        "content": "none"
       },      
       {
         "type": "text",
