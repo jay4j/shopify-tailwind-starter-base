@@ -55,7 +55,6 @@
       ],
       "custom_css": [
         "p {font-size: 1.8rem;}",
-        ".slideshow__slide{height:35rem;}",
         ".banner__box {height: 25rem; background-color: transparent;}"
       ],
       "settings": {
