@@ -33,7 +33,7 @@
       ],
       "custom_css": [
         ".image-with-text__text {font-size: 2rem;}",
-        ".content-container {top:-54px;}"
+        ".content-container {top: -54px; left: -40px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/intro-img-2.jpg",
