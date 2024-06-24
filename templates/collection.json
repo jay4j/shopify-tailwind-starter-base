@@ -73,6 +73,7 @@
         "column_dr7PBi",
         "column_EtgAfM"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",

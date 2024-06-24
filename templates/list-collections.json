@@ -61,6 +61,7 @@
         "column_nBUBQE",
         "column_BUVYRW"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
