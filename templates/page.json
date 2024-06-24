@@ -32,14 +32,13 @@
         "text_WJkq8k"
       ],
       "custom_css": [
-        ".image-with-text__text {font-size: 2rem;}",
-        ".image-with {width: 40%;}"
+        ".image-with-text__text {font-size: 2rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/intro-img-2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
