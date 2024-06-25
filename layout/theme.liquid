@@ -356,5 +356,26 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+      <style>
+      .shopify-policy__container h1{
+          font-size: 20px !important;
+      }
+      
+      .shopify-policy__body *{
+          font-size: 15px !important
+      }
+      
+      @media (max-width: 749px){
+         
+          .shopify-policy__container h1{
+              font-size: 19px !important;
+          } 
+          .shopify-policy__body *{
+          font-size: 14px !important
+      }
+      }
+      
+      </style>    
   </body>
 </html>
