@@ -102,7 +102,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>Store in a cool dry place. Protect the gowns from direct sunlight and intense lighting. <\/p>",
+            "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}<\/p>",
             "page": ""
           }
         },
