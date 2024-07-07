@@ -94,7 +94,10 @@
             {%- render 'loading-spinner' -%}
           </button>
           {%- if show_dynamic_checkout -%}
+            <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="document.querySelector('[data-testid]').click();">Buy It Now!</button>
+            <div style="display:none;">
             {{ form | payment_button }}
+            </div>
           {%- endif -%}
         </div>
       {%- endform -%}
