@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_yeXBUR": {
@@ -15,12 +15,12 @@
         "slide_QgAtPB": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/v10_resize_hero_img_slide1.jpg",
+            "image": "shopify://shop_images/v10_resize_hero_img_slide1.jpg",
             "heading": "Celebrate Our Milestone",
             "heading_size": "h2",
             "subheading": "Since 2020, LonX has strived to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.",
             "button_label": "Learn More",
-            "link": "shopify:\/\/pages\/map",
+            "link": "shopify://pages/map",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -33,12 +33,12 @@
         "slide_RCMhid": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/v3_resize_hero_img_slide2.jpg",
+            "image": "shopify://shop_images/v3_resize_hero_img_slide2.jpg",
             "heading": "Premium Isolation Gowns",
             "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
             "button_label": "Learn More",
-            "link": "shopify:\/\/collections\/isolation-gown",
+            "link": "shopify://collections/isolation-gown",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -74,9 +74,9 @@
         "#Banner-template--22876547449123__image_banner_ypNq7G {margin: auto; width: 80%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-event_v1.jpg",
+        "image": "shopify://shop_images/web-event_v1.jpg",
         "image_overlay_opacity": 0,
-        "image_link": "shopify:\/\/collections\/limited-time-offers",
+        "image_link": "shopify://collections/limited-time-offers",
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -95,7 +95,7 @@
         ".price--on-sale {font-family: \"Twentieth Century\", \"Verdana\", sans-serif; font-size: 1.5rem;}"
       ],
       "settings": {
-        "title": "Limited Time Offer",
+        "title": "Big Sales Offer",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -239,21 +239,21 @@
         "row_rkEmPH": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/intro-img-1.jpg",
+            "image": "shopify://shop_images/intro-img-1.jpg",
             "caption": "",
             "heading": "Who we are",
-            "text": "<p>Since 2020, LonX has established itself as a manufacturer and distributor of personal protective equipment. We offer a range of essential supplies to keep your clinic running safely every day. Many items are available in a variety of hues to add a splash of colour to any office.<\/p>",
+            "text": "<p>Since 2020, LonX has established itself as a manufacturer and distributor of personal protective equipment. We offer a range of essential supplies to keep your clinic running safely every day. Many items are available in a variety of hues to add a splash of colour to any office.</p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/map"
+            "button_link": "shopify://pages/map"
           }
         },
         "row_m9BBhH": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1577-202109241520194774.png",
+            "image": "shopify://shop_images/1577-202109241520194774.png",
             "caption": "",
             "heading": "We take pride in the quality of our products",
-            "text": "<p>Over the years, our factory has consistently met the requirements of ISO 13485. Our workforce is primarily comprised of experienced professionals with years of production expertise. We operate under a stringent and precise management model while fostering strong partnerships with suppliers worldwide. This collaborative approach enables us to consistently deliver high-quality products at competitive prices.<\/p>",
+            "text": "<p>Over the years, our factory has consistently met the requirements of ISO 13485. Our workforce is primarily comprised of experienced professionals with years of production expertise. We operate under a stringent and precise management model while fostering strong partnerships with suppliers worldwide. This collaborative approach enables us to consistently deliver high-quality products at competitive prices.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -286,7 +286,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -301,7 +301,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -310,7 +310,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -319,7 +319,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -361,13 +361,12 @@
         "paragraph_j3fbNc": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Sign up to stay informed on: New Promotional Offers, new products, updates and more...<\/p>"
+            "text": "<p>Sign up to stay informed on: New Promotional Offers, new products, updates and more...</p>"
           }
         },
         "email_form_e63p8a": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
