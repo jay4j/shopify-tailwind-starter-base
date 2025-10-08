@@ -1,4 +1,4 @@
-/* ====== Contact Page 优化样式 ====== */
+/* ====== Contact Page 修正版样式 ====== */
 
 /* 通用基础样式 */
 .contact {
@@ -14,7 +14,7 @@
   margin-bottom: 2rem;
 }
 
-/* 容器宽度优化（原 Dawn 为 650px 左右） */
+/* 容器宽度优化 */
 .contact.page-width.page-width--narrow {
   max-width: 900px;
 }
@@ -59,21 +59,34 @@
   margin: 0 auto 20px;
   display: block;
   padding: 0.8rem 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc !important;
   border-radius: 6px;
   font-size: 1rem;
-  transition: all 0.2s ease;
   box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  outline: none;
+  box-shadow: none !important; /* 移除 Dawn 默认阴影 */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact .field__input:focus,
 .contact select:focus,
 .contact textarea:focus {
-  border-color: #000;
-  outline: none;
+  border-color: #000 !important;
+  box-shadow: none !important;
 }
 
-/* 提示消息（成功/错误） */
+/* 移除内层重复的 field__input 包裹边框 */
+.contact .field:has(.field__input),
+.contact .field:has(select),
+.contact .field:has(textarea) {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent;
+}
+
+/* 提示消息 */
 .contact .form__message {
   align-items: flex-start;
   margin-bottom: 1rem;
@@ -86,7 +99,7 @@
   color: green;
 }
 
-/* 提交按钮 */
+/* 按钮样式 */
 .contact__button {
   text-align: center;
   margin-top: 3rem;
@@ -102,18 +115,20 @@
   display: inline-block;
   width: 200px;
   padding: 0.9rem 1.5rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: none !important;
   border-radius: 6px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: none !important;
+  text-transform: none;
   transition: all 0.3s ease;
 }
 
 .contact__button .button:hover {
-  background-color: #333;
+  background-color: #333 !important;
   transform: translateY(-2px);
 }
 
