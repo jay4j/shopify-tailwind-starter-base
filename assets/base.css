@@ -1625,6 +1625,18 @@ details[open] > .share-button__fallback {
   color: rgba(var(--color-foreground), 0.75);
 }
 
+#contact_form select,
+    #contact_form input[type="checkbox"] {
+    margin-top: 8px;
+   margin-bottom: 16px;
+  }
+
+  #contact_form select {
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
 .field:hover.field:after,
 .select:hover.select:after,
 .select__select:hover.select__select:after,
@@ -3529,14 +3541,4 @@ details-disclosure > details {
   }
 }
 
- #contact_form select,
-    #contact_form input[type="checkbox"] {
-    margin-top: 8px;
-   margin-bottom: 16px;
-  }
-
-  #contact_form select {
-    border-radius: 6px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+ 
