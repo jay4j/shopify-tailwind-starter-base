@@ -135,3 +135,59 @@
 }
 
 --brand-blue: #0072bb;
+
+/* === Send 按钮去边框 === */
+.contact__button .button {
+  width: 220px;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #0072bb; /* LonX 蓝 */
+  color: #fff;
+  border: none !important; /* 去掉边框 */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.contact__button .button:hover {
+  background-color: #005f99;
+  transform: translateY(-1px);
+}
+
+/* === placeholder 颜色修改为 LonX 蓝 === */
+.contact .field__input::placeholder,
+.contact select::placeholder,
+.contact textarea::placeholder {
+  color: #0072bb !important;
+  opacity: 0.7;
+}
+
+/* === Phone number 与 Product of interest 并排 === */
+@media screen and (min-width: 750px) {
+  #ContactForm-phone,
+  #ContactFormProduct {
+    width: 100%;
+  }
+
+  /* 把它们放在一个两列网格 */
+  #ContactForm-phone,
+  #ContactFormProduct {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* 调整父容器为两列布局 */
+  #ContactForm-phone,
+  #ContactFormProduct {
+    max-width: calc(50% - 1rem);
+  }
+
+  /* 给第二个 select 增加左边距 */
+  #ContactFormProduct {
+    margin-left: 1rem;
+  }
+}
+
+/* === Product of interest 下拉框内边距优化 === */
+.contact select {
+  padding: 12px 16px;
+}
