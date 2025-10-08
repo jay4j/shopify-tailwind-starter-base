@@ -58,7 +58,7 @@
       "type": "contact-form",
       "custom_css": [
         ".field__label {color: #0072bb;}",
-        ".field_checkBox {color: #0072bb;}"
+        ".field_checkBox {color: #0072bb; font-weight: 600;}"
       ],
       "name": "t:sections.contact-form.presets.name",
       "settings": {
