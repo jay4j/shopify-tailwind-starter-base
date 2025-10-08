@@ -3527,8 +3527,9 @@ details-disclosure > details {
     .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
+}
 
-  #contact_form select,
+ #contact_form select,
     #contact_form input[type="checkbox"] {
     margin-top: 8px;
    margin-bottom: 16px;
@@ -3539,6 +3540,3 @@ details-disclosure > details {
     padding: 10px;
     border: 1px solid #ccc;
   }
-
-
-}
