@@ -48,7 +48,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -56,6 +56,9 @@
     },
     "contact_form_cX6LxN": {
       "type": "contact-form",
+      "custom_css": [
+        ".field__label {color: #0072bb;}"
+      ],
       "name": "t:sections.contact-form.presets.name",
       "settings": {
         "heading": "",
