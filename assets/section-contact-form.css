@@ -1,3 +1,4 @@
+/* === Base === */
 .contact img {
   max-width: 100%;
 }
@@ -10,6 +11,7 @@
   margin-top: 0.2rem;
 }
 
+/* === Form layout spacing === */
 .contact .field {
   margin-bottom: 1.5rem;
 }
@@ -20,8 +22,80 @@
   }
 }
 
+/* === Container width === */
+.contact.page-width.page-width--narrow {
+  max-width: 900px;
+  padding: 0 1.5rem;
+}
+
+/* === Two-column layout for wide screens === */
+@media screen and (min-width: 750px) {
+  .contact__fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2rem;
+  }
+}
+
+/* === Field input styles === */
+.contact .field__input,
+.contact select,
+.contact textarea {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover & focus states */
+.contact .field__input:focus,
+.contact select:focus,
+.contact textarea:focus {
+  border-color: #1e88e5;
+  box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.15);
+  outline: none;
+}
+
+/* Label styling */
+.contact .field__label,
+.contact label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* === Dropdown styling === */
+.contact select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23777" height="24" viewBox="0 0 24 24" width="24"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+/* === Checkbox styling === */
+.contact input[type="checkbox"] {
+  accent-color: #1e88e5;
+  transform: scale(1.1);
+  margin-right: 6px;
+}
+
+/* === Textarea === */
+.contact textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* === Submit button === */
 .contact__button {
   margin-top: 3rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 750px) {
@@ -30,32 +104,32 @@
   }
 }
 
-@media screen and (min-width: 750px) {
-  .contact__fields {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
-  }
-}
-.contact.page-width.page-width--narrow {
-  max-width: 900px; /* 调大容器宽度，原来 Dawn 是 650px 左右 */
-}
-
-.contact .field__input,
-.contact select,
-.contact textarea {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  display: block;
-}
-
-/* 让按钮与输入框对齐居中 */
-.contact__button {
-  text-align: center;
-}
-
 .contact__button .button {
-  width: 200px;
+  width: 220px;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #1e88e5;
+  color: #fff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
+.contact__button .button:hover {
+  background-color: #1565c0;
+  transform: translateY(-1px);
+}
+
+/* === Success / error messages === */
+.form-status.form__message {
+  border-radius: 6px;
+  padding: 12px 16px;
+  background: #e3f2fd;
+  color: #1565c0;
+  font-weight: 600;
+}
+
+.contact__field-error {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: 4px;
+}
