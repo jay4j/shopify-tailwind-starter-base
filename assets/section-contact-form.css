@@ -38,14 +38,12 @@
   }
 }
 
-#contact_form select,
-#contact_form input[type="checkbox"] {
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-
-#contact_form select {
-  border-radius: 6px;
-  padding: 10px;
+.contact-form .field input,
+.contact-form .field select,
+.contact-form .field textarea {
+  width: 100%;             /* 控制输入框宽度，可以改成 80%, 60% 等 */
+  max-width: 600px;        /* 设置最大宽度 */
+  margin: 0 auto 16px;     /* 上下留白 */
+  display: block;          /* 居中对齐 */
 }
 
