@@ -37,13 +37,25 @@
     grid-column-gap: 2rem;
   }
 }
+.contact.page-width.page-width--narrow {
+  max-width: 900px; /* 调大容器宽度，原来 Dawn 是 650px 左右 */
+}
 
-.contact-form .field input,
-.contact-form .field select,
-.contact-form .field textarea {
-  width: 100%;             /* 控制输入框宽度，可以改成 80%, 60% 等 */
-  max-width: 600px;        /* 设置最大宽度 */
-  margin: 0 auto 16px;     /* 上下留白 */
-  display: block;          /* 居中对齐 */
+.contact .field__input,
+.contact select,
+.contact textarea {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* 让按钮与输入框对齐居中 */
+.contact__button {
+  text-align: center;
+}
+
+.contact__button .button {
+  width: 200px;
 }
 
