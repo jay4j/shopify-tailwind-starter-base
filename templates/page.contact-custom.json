@@ -55,7 +55,8 @@
     "main": {
       "type": "custom-contact-form",
       "custom_css": [
-        ".contact .field textarea,.contact form textarea,.contact textarea {border: 2px solid #0071a1 !important; /* 自定义边框颜色 */ border-radius: 6px !important; font-weight: bold !important; font-size: 16px !important; color: #222 !important; padding: 10px !important; line-height: 1.5; box-shadow: none !important; outline: none !important; width: 100% !important; max-width: 800px; display: block; margin: 0 auto 20px;}"
+        ".full textarea,.field input,.field select {border: 2px solid #0071a1; border-radius: 6px; padding: 12px; font-size: 16px; font-weight: bold; width: 100%; box-shadow: none;}",
+        ".full textarea:focus,.full input:focus {border-color: #005f8c; outline: none;}"
       ],
       "settings": {}
     }
