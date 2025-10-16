@@ -1,0 +1,50 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-contact page-width">
+  <h2 class="contact-title">Contact Us</h2>
+  <p class="contact-subtitle">We’d love to hear from you! Please fill out the form below.</p>
+
+  {%- form 'contact', id: 'CustomContactForm' -%}
+
+    {%- if form.posted_successfully? -%}
+      <p class="form-success">Thank you for your message! We'll get back to you soon.</p>
+    {%- elsif form.errors -%}
+      <p class="form-error">There was an error. Please check your input.</p>
+    {%- endif -%}
+
+    <div class="form-grid">
+      <div class="field">
+        <input type="text" name="contact[name]" placeholder="Your Name" required>
+      </div>
+      <div class="field">
+        <input type="email" name="contact[email]" placeholder="Your Email" required>
+      </div>
+      <div class="field full">
+        <input type="text" name="contact[phone]" placeholder="Phone Number">
+      </div>
+      <div class="field full">
+        <select name="contact[product]" required>
+          <option value="">Select Product of Interest</option>
+          <option value="Isolation Gown">Isolation Gown</option>
+          <option value="Lab Coat">Lab Coat</option>
+          <option value="Shoe Covers">Shoe Covers</option>
+        </select>
+      </div>
+      <div class="field full">
+        <textarea name="contact[message]" rows="6" placeholder="Your Message"></textarea>
+      </div>
+    </div>
+
+    <div class="contact__button">
+      <button type="submit" class="button">Send Message</button>
+    </div>
+
+  {%- endform -%}
+</div>
+
+{% schema %}
+{
+  "name": "Custom Contact Form",
+  "settings": []
+}
+{% endschema %}
