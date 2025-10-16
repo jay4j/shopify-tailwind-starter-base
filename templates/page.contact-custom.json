@@ -31,6 +31,7 @@
         "heading_69RXiD",
         "text_WJkq8k"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__text {font-size: 2rem;}",
         ".content-container {top: -24px; left: -20px;}"
@@ -53,7 +54,6 @@
     },
     "main": {
       "type": "custom-contact-form",
-      "disabled": true,
       "settings": {}
     }
   },
