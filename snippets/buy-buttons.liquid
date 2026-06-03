@@ -65,6 +65,8 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        {% if customer and customer.tags contains 'approved' %}
+
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
@@ -100,6 +102,16 @@
             </div>
           {%- endif -%}
         </div>
+
+        {% else %}
+
+    <div class="product-form__buttons">
+      <a href="{{ routes.account_login_url }}" class="button button--full-width button--primary">
+          Login to view pricing
+      </a>
+    </div>
+
+{% endif %}
       {%- endform -%}
     </product-form>
   {%- else -%}
