@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -39,14 +39,15 @@
           "type": "announcement",
           "settings": {
             "text": "Mega Sale Litmited-Time Offers",
-            "link": "shopify:\/\/collections\/limited-time-offers"
+            "link": "shopify://collections/limited-time-offers"
           }
         },
         "announcement_6Mmfib": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Order $120 Or More For Free Shipping",
-            "link": "shopify:\/\/policies\/shipping-policy"
+            "link": "shopify://policies/shipping-policy"
           }
         }
       },
