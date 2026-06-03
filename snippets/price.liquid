@@ -80,9 +80,9 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
           {% unless customer and customer.tags contains 'approved' %}
-          <span class="login-to-view-price">
-              Sign up to View Pricing
-          </span>
+          <a href="/pages/sign-up-to-view-pricing" class="button button--secondary">
+            SignUp to View Pricing
+          </a>
           {% else %}
             {{ money_price }}
           {% endunless %}
@@ -105,9 +105,9 @@
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
         {% unless customer and customer.tags contains 'approved' %}
-          <span class="login-to-view-price">
-              Sign up to View Pricing
-          </span>
+          <a href="/pages/sign-up-to-view-pricing" class="button button--secondary">
+            SignUp to View Pricing
+          </a>
           {% else %}
             {{ money_price }}
           {% endunless %}
