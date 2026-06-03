@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_with_text_4J4q4y": {
@@ -22,7 +22,7 @@
         "text_WJkq8k": {
           "type": "text",
           "settings": {
-            "text": "<p>&nbsp;&nbsp;Since 2020, LonX has established itself as a manufacturer and distributor of personal protective equipment. we strive to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.<br\/>&nbsp;&nbsp;With a focus on innovation and adaptation, we continuously seek to expand our product line and enhance our services to meet evolving market demands. Our comprehensive product range includes lab coats, gowns, shoe covers, clip caps, masks, gloves,and other essential protective gear, all meticulously curated to meet rigorous safety standards.<br\/>&nbsp;&nbsp;Our factory meets the requirements of ISO 13485, operating under a rigorous and meticulous management model, boasting a workforce comprised mainly of experienced workers who have years of production experience. Over the years, we cultivate strong partnerships with global suppliers, enabling us to produce high-quality products at competitive prices.<br\/>&nbsp;&nbsp;We understand the importance of ensuring the health and safety of your employees, patients, customers, students, community, and family. We are committed to supporting your goals and delivering personal protective products to you in a timely manner.<br\/>&nbsp;&nbsp;LonX is more than just a supplier of PPE; we are your trusted partner in safety and protection. Contact us today to learn more about our products and how we can assist you in safeguarding your health and that of your loved ones.<\/p>",
+            "text": "<p>&nbsp;&nbsp;Since 2020, LonX has established itself as a manufacturer and distributor of personal protective equipment. we strive to offer high quality products that meet rigorous quality standards while ensuring afforable price for our customers.<br/>&nbsp;&nbsp;With a focus on innovation and adaptation, we continuously seek to expand our product line and enhance our services to meet evolving market demands. Our comprehensive product range includes lab coats, gowns, shoe covers, clip caps, masks, gloves,and other essential protective gear, all meticulously curated to meet rigorous safety standards.<br/>&nbsp;&nbsp;Our factory meets the requirements of ISO 13485, operating under a rigorous and meticulous management model, boasting a workforce comprised mainly of experienced workers who have years of production experience. Over the years, we cultivate strong partnerships with global suppliers, enabling us to produce high-quality products at competitive prices.<br/>&nbsp;&nbsp;We understand the importance of ensuring the health and safety of your employees, patients, customers, students, community, and family. We are committed to supporting your goals and delivering personal protective products to you in a timely manner.<br/>&nbsp;&nbsp;LonX is more than just a supplier of PPE; we are your trusted partner in safety and protection. Contact us today to learn more about our products and how we can assist you in safeguarding your health and that of your loved ones.</p>",
             "text_style": "body"
           }
         }
@@ -31,12 +31,13 @@
         "heading_69RXiD",
         "text_WJkq8k"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__text {font-size: 2rem;}",
         ".content-container {top: -24px; left: -20px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/intro-img-2.jpg",
+        "image": "shopify://shop_images/intro-img-2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -58,10 +59,22 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "page_QYMBQX": {
+      "type": "page",
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "page": "sign-up-to-view-pricing",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_with_text_4J4q4y",
-    "main"
+    "main",
+    "page_QYMBQX"
   ]
 }
