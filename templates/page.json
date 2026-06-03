@@ -31,7 +31,6 @@
         "heading_69RXiD",
         "text_WJkq8k"
       ],
-      "disabled": true,
       "custom_css": [
         ".image-with-text__text {font-size: 2rem;}",
         ".content-container {top: -24px; left: -20px;}"
@@ -59,22 +58,10 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "page_QYMBQX": {
-      "type": "page",
-      "name": "t:sections.page.presets.name",
-      "settings": {
-        "page": "sign-up-to-view-pricing",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_with_text_4J4q4y",
-    "main",
-    "page_QYMBQX"
+    "main"
   ]
 }
